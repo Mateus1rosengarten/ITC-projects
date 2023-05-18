@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Fibonacci Milestone7</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="p-5 ml-5">
+
+    <h1 class="fibonacci-h1 mb-4">Fibonacci Calculator</h1>
+    <div class="row ml-1 mt-1">
+      <p class="fibonacci-p d-inline mt-3 mr-2 ">
+
+        The Fibonnaci Of </p>
+      <div class="form-outline">
+        <input type="number" id="xelement" class="form-control mt-3 ml-1" placeholder="#">
+
+      </div>
+      <button class="btn btn-primary btn-sm ml-2 mt-3" id="button1" type="submit">Is</button>
+      <p class="d-inline p-2" id="yelement"> </p>
+      <div class="spinner-border ml-7 mt-3" role="status" id="loader"></div>
+      <input class="mt-2 checkstyle" type="checkbox" id="myCheckbox">
+      <label for="save" class="mt-2 checktext" id="checktext">Save Calculation</label>
+      <div id="message-error">
+        <p id="message-text">Can't be larger than 50</p>
+      </div>
+    </div>
+    <div class="mt-5"></div>
+    <h2 class="results-text">Results</h2>
+    <div class="spinner-border ml-7 mt-3" role="status" id="loader2"></div>
+    <ul id="calculations-results" class="mt-5">
+    </ul>
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+/*//////////////////////////// ELEMENTS SELECTORS /////////////////////////////*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+button {
+    position: absolute;
+    left: 390px;
+    top: 150px;
+}
+
+/*//////////////////////////// CLASS SELECTORS /////////////////////////////*/
+
+.fibonacci-h1 {
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 350;
+    font-size: 72px;
+    line-height: 79px;
+}
+
+.fibonacci-p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+input[type='number'] {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    position: absolute;
+    left: 300px;
+    top: 146px;
+    width: 86px;
+    height: 35px;
+}
+
+input[type='number'] .input-error {
+    border: 1px solid #D9534F;
+}
+
+
+.msgErrorfor42 {
+
+    font-family: 'Open Sans';
+    line-height: 24px;
+    color: #D9534F;
+}
+
+.checkstyle {
+    position: absolute;
+    top: 200px;
+
+
+
+}
+
+.checktext {
+    font-family: 'Open Sans';
+    position: absolute;
+    top: 195px;
+    left: 118px;
+}
+
+.results-text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 72px;
+
+}
+
+.stylingResultsList {
+
+
+    font-weight: 200;
+    ;
+    font-size: 24px;
+    line-height: 24px;
+    list-style-type: none;
+
+}
+
+.stylingMyHr {
+    border-top: 1px solid #000000;
+    margin-top: 18px;
+    margin-bottom: 24px;
+    width: 1078px;
+
+
+}
+
+/*//////////////////////////// ID SELECTORS ////////////////////////////*/
+
+#yelement {
+    font-size: 22px;
+    text-decoration: underline;
+    font-weight: bold;
+    position: absolute;
+    left: 433px;
+    top: 155px;
+
+}
+
+#loader {
+    display: none;
+    position: absolute;
+    left: 440px;
+}
+
+#loader2 {
+    display: none;
+    position: absolute;
+    top: 265px;
+    left: 293px;
+}
+
+
+#message-error {
+    display: none;
+    position: absolute;
+    width: 180px;
+    height: 28px;
+    left: 210px;
+    top: 200px;
+    background: #F2DEDE;
+    border: 1px solid #EBCCCC;
+    border-radius: 4px;
+}
+
+#message-text {
+    position: absolute;
+    left: 4px;
+    font-family: 'Open Sans';
+    color: #A94442;
+}
